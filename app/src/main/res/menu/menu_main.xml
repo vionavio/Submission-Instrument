@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item-->
+<!--        android:id="@+id/action_list"-->
+<!--        android:title="@string/list"-->
+<!--        app:showAsAction="never" />-->
+<!--    <item-->
+<!--        android:id="@+id/action_grid"-->
+<!--        android:title="@string/grid"-->
+<!--        app:showAsAction="never" />-->
+<!--    <item-->
+<!--        android:id="@+id/action_cardview"-->
+<!--        android:title="@string/cardview"-->
+<!--        app:showAsAction="never" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/about"-->
+<!--        android:title="@string/about"-->
+<!--        app:showAsAction="never" />-->
+
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="300"
+        android:title="About"
+        android:icon="@drawable/account2"
+        app:showAsAction="ifRoom"/>
+</menu>

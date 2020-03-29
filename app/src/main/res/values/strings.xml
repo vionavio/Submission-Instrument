@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Instrument</string>
+    <string name="detail">Detail</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="cardview">CardView</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="about">Classical Instrument</string>
+    <string name="name">Maryati</string>
+    <string name="email">titi.666198maryati@gmail.com</string>
+</resources>

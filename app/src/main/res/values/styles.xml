@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="about" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ffcfd5</item>
+        <item name="colorPrimaryDark">#e55e74</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="android:textColorPrimary">#c6425b</item>
+    </style>
+
+    <style name="Utama" parent="Theme.AppCompat.Light">
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#fff5ab</item>
+        <item name="colorPrimaryDark">#958237</item>
+        <item name="colorAccent">#968540</item>
+        <item name="android:textColorPrimary">#968540</item>
+    </style>
+
+    <style name="HeaderBar">
+        <item name="android:background">#c0ab53</item>
+        <item name="colorAccent">#968540</item>
+        <item name="android:textColorPrimary">#968540</item>
+    </style>
+
+</resources>

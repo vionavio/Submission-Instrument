@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6ba59a"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    tools:context="com.example.instrument.DetailActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            card_view:cardElevation="6dp"
+            card_view:cardCornerRadius="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="15dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/imgPhoto"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="180dp"/>
+                <TextView
+                    android:id="@+id/tvNama"
+                    android:textSize="28sp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="bbbbbbbb"
+                    android:textColor="#001a16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Invented by"
+                    android:textColor="#001a16"
+                    />
+                <TextView
+                    android:id="@+id/invented_by"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Invented by"
+                    android:textColor="#00574b"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Year invented"
+                    android:textColor="#001a16"
+                    />
+                <TextView
+                    android:id="@+id/year_invented"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Invented by"
+                    android:textColor="#00574b"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Place Invented"
+                    android:textColor="#001a16"
+                    />
+                <TextView
+                    android:id="@+id/place_invented"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Invented by"
+                    android:textColor="#00574b"
+                    />
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/tvDetail"
+                    android:textSize="18sp"
+                    android:textColor="#001a16"
+                    android:fontFamily="sans-serif"
+                    android:text="vvvvdssddsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsddvv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>
